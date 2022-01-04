@@ -12,7 +12,7 @@ function table() {
     
     
     
-    for (let i = 1; i < rnge; i++) {
+    for (let i = 1; i <= rnge; i++) {
         
         //document.getElementById("tble").innerHTML += `<br>${inp} x ${i} = ${inp * i}`
         //document.write(`${inp} x ${i} = ${inp * i} <br>`)
