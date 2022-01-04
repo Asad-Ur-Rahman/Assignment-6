@@ -6,12 +6,13 @@ function table() {
     document.getElementById("tble").innerHTML = "";
 
     var inp = document.getElementById("txt").value
+    var rnge = document.getElementById("txt1").value
     
     //document.write("Multiplication Table is : " + inp);
     
     
     
-    for (let i = 1; i < 11; i++) {
+    for (let i = 1; i < rnge; i++) {
         
         //document.getElementById("tble").innerHTML += `<br>${inp} x ${i} = ${inp * i}`
         //document.write(`${inp} x ${i} = ${inp * i} <br>`)
