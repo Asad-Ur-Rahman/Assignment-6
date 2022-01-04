@@ -3,16 +3,20 @@
 
 function table() {
 
+    document.getElementById("tble").innerHTML = "";
+
     var inp = document.getElementById("txt").value
     
     //document.write("Multiplication Table is : " + inp);
     
     
     
-    for (let i = 0; i < 11; i++) {
+    for (let i = 1; i < 11; i++) {
         
         //document.getElementById("tble").innerHTML += `<br>${inp} x ${i} = ${inp * i}`
-        document.write(`${inp} x ${i} = ${inp * i} <br>`)
+        //document.write(`${inp} x ${i} = ${inp * i} <br>`)
+
+        document.getElementById("tble").innerHTML += `${inp} x ${i} = ${inp * i} <br>`
     }
 
 
